@@ -4,6 +4,7 @@
 *.class
 *.keystore
 *.jks
+*.p12
 *.pyc
 __pycache__/
 .gradle/
