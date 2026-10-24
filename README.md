@@ -49,3 +49,7 @@ bash "$tmp/Documents/sh/spatial_score_slider_publish_v20261024T050817Z.sh" "$tmp
 )
 ```
 The publishing script requires a repository that does not yet exist, creates `ov3qPI/spatial-score-slider` as **public**, commits the source and CC0 license, and pushes `main`. It refuses to overwrite an existing repository. The temporary unpacked files are deleted afterward, including if publishing fails.
+
+## GitHub Releases
+
+See [RELEASING.md](RELEASING.md) for automated signing and release publication, including how to print and back up the keystore and password.
