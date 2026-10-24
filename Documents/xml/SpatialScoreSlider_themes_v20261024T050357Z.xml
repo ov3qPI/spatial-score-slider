@@ -1,0 +1,9 @@
+<resources>
+<style name="Theme.SpatialScoreSlider" parent="@android:style/Theme.Material.Light.NoActionBar">
+<item name="android:statusBarColor">#FF23201D</item>
+<item name="android:navigationBarColor">#FF23201D</item>
+<item name="android:windowLightStatusBar">false</item>
+<item name="android:windowLightNavigationBar">false</item>
+<item name="android:windowActionModeOverlay">true</item>
+</style>
+</resources>

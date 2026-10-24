@@ -1,0 +1,10 @@
+*.apk
+*.aab
+*.dex
+*.class
+*.keystore
+*.jks
+*.pyc
+__pycache__/
+.gradle/
+build/

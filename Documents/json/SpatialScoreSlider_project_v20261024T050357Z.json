@@ -1,0 +1,25 @@
+{
+  "project": "SpatialScoreSlider",
+  "version": "20261024T050357Z",
+  "script_id": "spatial_score_slider_build_v20261024T050357Z",
+  "package": "cc0.KPYQrT.spatialscoreslider",
+  "minimum_android_api": 24,
+  "target_android_api": 34,
+  "sources": {
+    "Documents/java/SpatialScoreSlider_MainActivity_v20261024T050357Z.java": "src/cc0/KPYQrT/spatialscoreslider/MainActivity.java",
+    "Documents/xml/SpatialScoreSlider_AndroidManifest_v20261024T050357Z.xml": "AndroidManifest.xml",
+    "Documents/xml/SpatialScoreSlider_activity_main_v20261024T050357Z.xml": "res/layout/activity_main.xml",
+    "Documents/xml/SpatialScoreSlider_slider_progress_gradient_v20261024T050357Z.xml": "res/drawable/slider_progress_gradient.xml",
+    "Documents/xml/SpatialScoreSlider_slider_progress_layer_v20261024T050357Z.xml": "res/drawable/slider_progress_layer.xml",
+    "Documents/xml/SpatialScoreSlider_slider_thumb_bar_v20261024T050357Z.xml": "res/drawable/slider_thumb_bar.xml",
+    "Documents/xml/SpatialScoreSlider_slider_track_background_v20261024T050357Z.xml": "res/drawable/slider_track_background.xml",
+    "Documents/xml/SpatialScoreSlider_strings_v20261024T050357Z.xml": "res/values/strings.xml",
+    "Documents/xml/SpatialScoreSlider_themes_v20261024T050357Z.xml": "res/values/themes.xml",
+    "Documents/xml/SpatialScoreSlider_ic_spatial_score_v20261024T050357Z.xml": "res/drawable/ic_spatial_score.xml"
+  },
+  "output_root": "/storage/emulated/0",
+  "note": "Source-only offline Termux build. Orange-to-blue vector launcher icon. Screen status bar matches background; slider follows the measured viewport vertical centerline, output centered above. Temporary extracted source and intermediate artifacts are removed; only signed APK persists. Color mapping: 0 orange #D68A3A; 100 blue #4C7EA8.",
+  "app_name": "Spatial Score Slider",
+  "license": "CC0-1.0",
+  "license_text": "LICENSE"
+}

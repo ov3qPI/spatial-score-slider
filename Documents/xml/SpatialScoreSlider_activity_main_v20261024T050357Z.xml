@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/screenRoot" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FF23201D" android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingTop="18dp" android:paddingBottom="18dp">
+<LinearLayout android:id="@+id/headerGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="top">
+<TextView android:id="@+id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="26sp" android:textStyle="bold" android:textColor="#FFE7D2B0"/>
+<TextView android:id="@+id/descriptionText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Move the slider to score something spatially. The score stays hidden until you release the slider." android:textSize="15sp" android:textColor="#FFB8A999"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/scoreOutput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="top|center_horizontal" android:orientation="vertical" android:gravity="center" android:minWidth="188dp" android:paddingStart="20dp" android:paddingEnd="20dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:background="#FF2F2A26">
+<TextView android:id="@+id/currentValueLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CURRENT VALUE" android:textAllCaps="true" android:textColor="#FFA99682" android:textSize="13sp"/>
+<TextView android:id="@+id/scoreValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="6dp" android:text="—" android:textSize="72sp" android:textStyle="bold" android:textColor="#FFF2E7D7" android:focusable="true" android:clickable="true"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/sliderGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="top" android:orientation="vertical">
+<SeekBar android:id="@+id/slider" android:layout_width="match_parent" android:layout_height="56dp" android:max="100" android:background="@null" android:progressDrawable="@drawable/slider_progress_layer" android:thumb="@drawable/slider_thumb_bar" android:thumbOffset="0dp" android:paddingStart="0dp" android:paddingEnd="0dp" android:layout_marginStart="-2dp" android:layout_marginEnd="-2dp" android:splitTrack="false" android:defaultFocusHighlightEnabled="false"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="6dp">
+<TextView android:id="@+id/minValue" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="0" android:textColor="#FFB8A999" android:textSize="15sp"/>
+<TextView android:id="@+id/maxValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:textColor="#FFB8A999" android:textSize="15sp"/>
+</LinearLayout>
+</LinearLayout>
+<Button android:id="@+id/resetButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_gravity="bottom" android:text="Reset" android:textAllCaps="false" android:textColor="#FF231D18" android:textSize="18sp" android:backgroundTint="#FFB89267"/>
+</FrameLayout>
