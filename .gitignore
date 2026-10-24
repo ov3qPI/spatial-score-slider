@@ -5,6 +5,7 @@
 *.keystore
 *.jks
 *.p12
+*.pass
 *.pyc
 __pycache__/
 .gradle/
